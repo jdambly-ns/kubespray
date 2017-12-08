@@ -13,7 +13,7 @@ kwebui06.mgt.sv5.nskope.net
 kwebui07.mgt.sv5.nskope.net
 kwebui08.mgt.sv5.nskope.net
 kwebui09.mgt.sv5.nskope.net
-kwebui10.mgt.sv5.nskope.net
+#kwebui10.mgt.sv5.nskope.net
 
 [etcd]
 webuietcd01-1.mgt.sv5.nskope.net
