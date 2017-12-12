@@ -179,3 +179,6 @@ local_volumes_enabled: false
 ## Supplementary addresses that can be added in kubernetes ssl keys.
 ## That can be usefull for example to setup a keepalived virtual IP
 # supplementary_addresses_in_ssl_keys: [10.0.0.1, 10.0.0.2, 10.0.0.3]
+
+# disable rbac
+authorization_modes: []
