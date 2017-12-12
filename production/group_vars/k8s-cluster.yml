@@ -181,4 +181,4 @@ local_volumes_enabled: false
 # supplementary_addresses_in_ssl_keys: [10.0.0.1, 10.0.0.2, 10.0.0.3]
 
 # disable rbac
-authorization_modes: []
+#authorization_modes: []
