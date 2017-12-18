@@ -20,6 +20,11 @@ webuietcd01-1.mgt.sv5.nskope.net
 webuietcd02-1.mgt.sv5.nskope.net
 webuietcd03-1.mgt.sv5.nskope.net
 
+[etcd-alt]
+webuietcd01-1.sv5.nskope.net
+webuietcd02-1.sv5.nskope.net
+webuietcd03-1.sv5.nskope.net
+
 [k8s-cluster:children]
 kube-node
 kube-master
