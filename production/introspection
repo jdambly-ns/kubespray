@@ -1,29 +1,24 @@
 [kube-master]
-kmwebui01.mgt.sv5.nskope.net
-kmwebui02.mgt.sv5.nskope.net
-kmwebui03.mgt.sv5.nskope.net
+kmwebui01.mgt.sv5.nskope.net ip=172.16.129.47
+kmwebui02.mgt.sv5.nskope.net ip=172.16.128.109
+kmwebui03.mgt.sv5.nskope.net ip=172.16.129.1
 
 [kube-node]
-kwebui01.mgt.sv5.nskope.net
-kwebui02.mgt.sv5.nskope.net
-kwebui03.mgt.sv5.nskope.net
-kwebui04.mgt.sv5.nskope.net
-kwebui05.mgt.sv5.nskope.net
-kwebui06.mgt.sv5.nskope.net
-kwebui07.mgt.sv5.nskope.net
-kwebui08.mgt.sv5.nskope.net
-kwebui09.mgt.sv5.nskope.net
-kwebui10.mgt.sv5.nskope.net
+kwebui01.mgt.sv5.nskope.net ip=172.16.128.213
+kwebui02.mgt.sv5.nskope.net ip=172.16.128.214
+kwebui03.mgt.sv5.nskope.net ip=172.16.128.215
+kwebui04.mgt.sv5.nskope.net ip=172.16.128.211
+kwebui05.mgt.sv5.nskope.net ip=172.16.128.212
+kwebui06.mgt.sv5.nskope.net ip=172.16.128.221
+kwebui07.mgt.sv5.nskope.net ip=172.16.128.222
+kwebui08.mgt.sv5.nskope.net ip=172.16.128.219
+kwebui09.mgt.sv5.nskope.net ip=172.16.128.218
+kwebui10.mgt.sv5.nskope.net ip=172.16.128.220
 
 [etcd]
-webuietcd01-1.mgt.sv5.nskope.net
-webuietcd02-1.mgt.sv5.nskope.net
-webuietcd03-1.mgt.sv5.nskope.net
-
-[etcd-alt]
-webuietcd01-1.sv5.nskope.net
-webuietcd02-1.sv5.nskope.net
-webuietcd03-1.sv5.nskope.net
+webuietcd01-1.mgt.sv5.nskope.net ip=172.16.129.35
+webuietcd02-1.mgt.sv5.nskope.net ip=172.16.129.37
+webuietcd03-1.mgt.sv5.nskope.net ip=172.16.129.38
 
 [k8s-cluster:children]
 kube-node
