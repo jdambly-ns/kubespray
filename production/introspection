@@ -1,5 +1,5 @@
 [kube-master]
-kmwebui01.mgt.sv5.nskope.net ip=172.16.129.47
+kmwebui01.mgt.sv5.nskope.net ip=172.16.128.230
 kmwebui02.mgt.sv5.nskope.net ip=172.16.128.109
 kmwebui03.mgt.sv5.nskope.net ip=172.16.129.1
 
