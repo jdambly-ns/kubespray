@@ -109,7 +109,7 @@ kube_apiserver_insecure_port: 8080 # (http)
 
 # DNS configuration.
 # Kubernetes cluster name, also will be used as DNS domain
-cluster_name: sv5.nskope.net
+cluster_name: cluster.local
 # Subdomains of DNS domain to be resolved via /etc/resolv.conf for hostnet pods
 ndots: 2
 # Can be dnsmasq_kubedns, kubedns or none
@@ -131,7 +131,7 @@ docker_daemon_graph: "/var/lib/docker"
 ## An obvious use case is allowing insecure-registry access
 ## to self hosted registries like so:
 
-docker_options: "--insecure-registry={{ kube_service_addresses }} --graph={{ docker_daemon_graph }}  {{ docker_log_opts }}"
+docker_options: "--insecure-registry=nsregistry01.sv5.nskope.net --graph={{ docker_daemon_graph }}  {{ docker_log_opts }}"
 docker_bin_dir: "/usr/bin"
 
 # Settings for containerized control plane (etcd/kubelet/secrets)
